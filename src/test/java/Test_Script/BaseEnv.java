@@ -1,15 +1,17 @@
 package Test_Script;
 
+import Utils.utils_task;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import java.time.Duration;
 
-public class BasePage {
+public class BaseEnv {
     WebDriver driver;
     @BeforeMethod
     public void setup()
@@ -23,8 +25,25 @@ public class BasePage {
         driver.get("https://www.chaldal.com/");
     }
     @AfterMethod
-    public void teardown()
-    {
+    public void screenShot(ITestResult result){
+        if(ITestResult.FAILURE==result.getStatus()){
+            try{
+                utils_task utils=new utils_task(driver);
+                utils.takeScreenshotForFailure(driver);
+            }
+            catch (Exception exception){
+                System.out.println(exception.toString());
+            }
+        }
+        else{
+            try{
+                utils_task utils=new utils_task(driver);
+                utils.takeScreenshotForSuccess(driver);
+            }
+            catch (Exception exception){
+                System.out.println(exception.toString());
+            }
+        }
         driver.close();
     }
 }

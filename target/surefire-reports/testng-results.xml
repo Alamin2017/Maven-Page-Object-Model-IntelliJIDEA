@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="76348" started-at="2022-10-05T19:02:44 BDT" finished-at="2022-10-05T19:04:00 BDT">
+  <suite name="Command line suite" duration-ms="70668" started-at="2022-10-05T19:22:48 BDT" finished-at="2022-10-05T19:23:59 BDT">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="76348" started-at="2022-10-05T19:02:44 BDT" finished-at="2022-10-05T19:04:00 BDT">
+    <test name="Command line test" duration-ms="70668" started-at="2022-10-05T19:22:48 BDT" finished-at="2022-10-05T19:23:59 BDT">
       <class name="Test_Script.Test_ChaldalHomePage">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="setup" is-config="true" duration-ms="10004" started-at="2022-10-05T19:02:44 BDT" finished-at="2022-10-05T19:02:54 BDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="setup" is-config="true" duration-ms="8779" started-at="2022-10-05T19:22:48 BDT" finished-at="2022-10-05T19:22:57 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_logo_image()[pri:1, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="test_logo_image" duration-ms="3099" started-at="2022-10-05T19:02:54 BDT" finished-at="2022-10-05T19:02:57 BDT">
+        <test-method status="PASS" signature="test_logo_image()[pri:1, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="test_logo_image" duration-ms="3103" started-at="2022-10-05T19:22:57 BDT" finished-at="2022-10-05T19:23:00 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_logo_image -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="teardown" is-config="true" duration-ms="408" started-at="2022-10-05T19:02:57 BDT" finished-at="2022-10-05T19:02:58 BDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="teardown" is-config="true" duration-ms="198" started-at="2022-10-05T19:23:00 BDT" finished-at="2022-10-05T19:23:00 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="setup" is-config="true" duration-ms="9148" started-at="2022-10-05T19:02:58 BDT" finished-at="2022-10-05T19:03:07 BDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="setup" is-config="true" duration-ms="6506" started-at="2022-10-05T19:23:00 BDT" finished-at="2022-10-05T19:23:07 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_popular_product_count_shows_products_name()[pri:2, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="test_popular_product_count_shows_products_name" duration-ms="20715" started-at="2022-10-05T19:03:07 BDT" finished-at="2022-10-05T19:03:28 BDT">
+        <test-method status="PASS" signature="test_popular_product_count_shows_products_name()[pri:2, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="test_popular_product_count_shows_products_name" duration-ms="20529" started-at="2022-10-05T19:23:07 BDT" finished-at="2022-10-05T19:23:28 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_popular_product_count_shows_products_name -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="teardown" is-config="true" duration-ms="16254" started-at="2022-10-05T19:03:28 BDT" finished-at="2022-10-05T19:03:44 BDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="teardown" is-config="true" duration-ms="143" started-at="2022-10-05T19:23:28 BDT" finished-at="2022-10-05T19:23:28 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="setup" is-config="true" duration-ms="7630" started-at="2022-10-05T19:03:44 BDT" finished-at="2022-10-05T19:03:51 BDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="setup" is-config="true" duration-ms="6292" started-at="2022-10-05T19:23:28 BDT" finished-at="2022-10-05T19:23:34 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_exchange_language()[pri:3, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="test_exchange_language" duration-ms="8601" started-at="2022-10-05T19:03:51 BDT" finished-at="2022-10-05T19:04:00 BDT">
+        <test-method status="PASS" signature="test_exchange_language()[pri:3, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="test_exchange_language" duration-ms="8592" started-at="2022-10-05T19:23:34 BDT" finished-at="2022-10-05T19:23:43 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_exchange_language -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="teardown" is-config="true" duration-ms="190" started-at="2022-10-05T19:04:00 BDT" finished-at="2022-10-05T19:04:00 BDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="teardown" is-config="true" duration-ms="16273" started-at="2022-10-05T19:23:43 BDT" finished-at="2022-10-05T19:23:59 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

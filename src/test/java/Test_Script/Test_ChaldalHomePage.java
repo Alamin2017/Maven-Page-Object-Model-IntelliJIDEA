@@ -2,9 +2,7 @@ package Test_Script;
 
 import Page_Objects.ChaldalHomePage;
 import org.testng.annotations.Test;
-public class Test_ChaldalHomePage extends BasePage {
-
-
+public class Test_ChaldalHomePage extends BaseEnv {
     @Test(priority=1)
     public void test_logo_image() throws InterruptedException
     {
@@ -23,6 +21,4 @@ public class Test_ChaldalHomePage extends BasePage {
         ChaldalHomePage obj=new ChaldalHomePage(driver);
         obj.test_language();
     }
-
-
 }

@@ -12,16 +12,10 @@ public class ChaldalHomePage {
         this.driver=driver;
     }
     By image_logo=By.xpath("//*[@id='page']/div/div[3]/div/div[1]/div[1]/div[1]/a/img");
-
     By popular_item=By.xpath("//a[contains(text(),'Popular')]");
-
     By products_list=By.xpath("//*[@class='productPane']/div");
-
     By bangla_lang=By.xpath("//*[@id=\"page\"]/div/div[3]/div/div[1]/div[1]/div[4]/p[3]");
-
     By english_lang=By.xpath("//*[@id=\"page\"]/div/div[3]/div/div[1]/div[1]/div[4]/p[1]");
-
-
     public void image_logo_visibility() throws InterruptedException
     {
         boolean image=driver.findElement(image_logo).isDisplayed();
@@ -51,9 +45,5 @@ public class ChaldalHomePage {
         Thread.sleep(4000);
         driver.findElement(english_lang).click();
         Thread.sleep(4000);
-
     }
-
-
-
 }
