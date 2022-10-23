@@ -1,9 +1,11 @@
 package Utils;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.OutputType;
+
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -23,6 +25,7 @@ public class utils_task {
 			Thread.sleep(3000);
 		}
 	}
+
 	public void takeScreenshotForFailure(WebDriver driver) throws IOException {
 		File screenshotFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		String time=new SimpleDateFormat("dd-MM-yyyy-hh-mm-ss-aa").format(new Date());

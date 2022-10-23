@@ -22,7 +22,7 @@ public class BaseEnv {
         driver=new ChromeDriver(ops);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-        driver.get("https://www.chaldal.com/");
+
     }
     @AfterMethod
     public void screenShot(ITestResult result){
