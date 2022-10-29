@@ -20,9 +20,9 @@ public class Test_HomePage_UK extends BaseEnv {
 			System.out.println("All_Count:"+ all_count);
 			Assert.assertEquals(21,21);
 
-			  for(int i=1;i<obj.all_menu_count().size();i++)
+			  for(int i=0;i<obj.all_menu_count().size();i++)
 			  {
-				  System.out.println("All Menus Name:"+ obj.all_menu_count().get(i).getText());
+				  System.out.println("All Menu Serial Number["+i+"]:"+ obj.all_menu_count().get(i).getText());
 
 			  }
 //			utils_task scrolling=new utils_task(driver);

@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeMethod;
 import java.time.Duration;
 
 public class BaseEnv {
-    WebDriver driver;
+    WebDriver driver=null;
     @BeforeMethod
     public void setup()
     {
@@ -45,5 +45,6 @@ public class BaseEnv {
             }
         }
         driver.close();
+
     }
 }
