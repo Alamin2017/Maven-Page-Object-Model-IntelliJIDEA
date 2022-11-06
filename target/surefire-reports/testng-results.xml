@@ -1,48 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="70668" started-at="2022-10-05T19:22:48 BDT" finished-at="2022-10-05T19:23:59 BDT">
+  <suite name="Command line suite" duration-ms="298556" started-at="2022-11-03T19:06:43 BDT" finished-at="2022-11-03T19:11:41 BDT">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="70668" started-at="2022-10-05T19:22:48 BDT" finished-at="2022-10-05T19:23:59 BDT">
-      <class name="Test_Script.Test_ChaldalHomePage">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="setup" is-config="true" duration-ms="8779" started-at="2022-10-05T19:22:48 BDT" finished-at="2022-10-05T19:22:57 BDT">
+    <test name="Command line test" duration-ms="298556" started-at="2022-11-03T19:06:43 BDT" finished-at="2022-11-03T19:11:41 BDT">
+      <class name="Test_Script.Test_HomePage_UK">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test_Script.Test_HomePage_UK@16293aa2]" name="setup" is-config="true" duration-ms="1644" started-at="2022-11-03T19:08:18 BDT" finished-at="2022-11-03T19:08:19 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_logo_image()[pri:1, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="test_logo_image" duration-ms="3103" started-at="2022-10-05T19:22:57 BDT" finished-at="2022-10-05T19:23:00 BDT">
+        <test-method status="PASS" signature="test_Menu_all_Links()[pri:1, instance:Test_Script.Test_HomePage_UK@16293aa2]" name="test_Menu_all_Links" duration-ms="9832" started-at="2022-11-03T19:08:19 BDT" finished-at="2022-11-03T19:08:29 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Menu_all_Links -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:Test_Script.Test_HomePage_UK@16293aa2]" name="screenShot" is-config="true" duration-ms="16385" started-at="2022-11-03T19:08:29 BDT" finished-at="2022-11-03T19:08:46 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_Menu_all_Links status=SUCCESS method=Test_HomePage_UK.test_Menu_all_Links()[pri:1, instance:Test_Script.Test_HomePage_UK@16293aa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- Test_Script.Test_HomePage_UK -->
+      <class name="Test_Script.Test_Product_UK">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test_Script.Test_Product_UK@5158b42f]" name="setup" is-config="true" duration-ms="1460" started-at="2022-11-03T19:08:46 BDT" finished-at="2022-11-03T19:08:47 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_product()[pri:1, instance:Test_Script.Test_Product_UK@5158b42f]" name="test_product" duration-ms="157748" started-at="2022-11-03T19:08:47 BDT" finished-at="2022-11-03T19:11:25 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_product -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:Test_Script.Test_Product_UK@5158b42f]" name="screenShot" is-config="true" duration-ms="16357" started-at="2022-11-03T19:11:25 BDT" finished-at="2022-11-03T19:11:41 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_product status=SUCCESS method=Test_Product_UK.test_product()[pri:1, instance:Test_Script.Test_Product_UK@5158b42f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- Test_Script.Test_Product_UK -->
+      <class name="Test_Script.Test_ChaldalHomePage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test_Script.Test_ChaldalHomePage@74e52303]" name="setup" is-config="true" duration-ms="5457" started-at="2022-11-03T19:06:43 BDT" finished-at="2022-11-03T19:06:48 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_logo_image()[pri:1, instance:Test_Script.Test_ChaldalHomePage@74e52303]" name="test_logo_image" duration-ms="10013" started-at="2022-11-03T19:06:49 BDT" finished-at="2022-11-03T19:06:59 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_logo_image -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="teardown" is-config="true" duration-ms="198" started-at="2022-10-05T19:23:00 BDT" finished-at="2022-10-05T19:23:00 BDT">
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:Test_Script.Test_ChaldalHomePage@74e52303]" name="screenShot" is-config="true" duration-ms="599" started-at="2022-11-03T19:06:59 BDT" finished-at="2022-11-03T19:06:59 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_logo_image status=SUCCESS method=Test_ChaldalHomePage.test_logo_image()[pri:1, instance:Test_Script.Test_ChaldalHomePage@74e52303] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="setup" is-config="true" duration-ms="6506" started-at="2022-10-05T19:23:00 BDT" finished-at="2022-10-05T19:23:07 BDT">
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test_Script.Test_ChaldalHomePage@74e52303]" name="setup" is-config="true" duration-ms="2100" started-at="2022-11-03T19:06:59 BDT" finished-at="2022-11-03T19:07:01 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_popular_product_count_shows_products_name()[pri:2, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="test_popular_product_count_shows_products_name" duration-ms="20529" started-at="2022-10-05T19:23:07 BDT" finished-at="2022-10-05T19:23:28 BDT">
+        <test-method status="PASS" signature="test_popular_product_count_shows_products_name()[pri:2, instance:Test_Script.Test_ChaldalHomePage@74e52303]" name="test_popular_product_count_shows_products_name" duration-ms="27244" started-at="2022-11-03T19:07:01 BDT" finished-at="2022-11-03T19:07:29 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_popular_product_count_shows_products_name -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="teardown" is-config="true" duration-ms="143" started-at="2022-10-05T19:23:28 BDT" finished-at="2022-10-05T19:23:28 BDT">
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:Test_Script.Test_ChaldalHomePage@74e52303]" name="screenShot" is-config="true" duration-ms="16390" started-at="2022-11-03T19:07:29 BDT" finished-at="2022-11-03T19:07:45 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_popular_product_count_shows_products_name status=SUCCESS method=Test_ChaldalHomePage.test_popular_product_count_shows_products_name()[pri:2, instance:Test_Script.Test_ChaldalHomePage@74e52303] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="setup" is-config="true" duration-ms="6292" started-at="2022-10-05T19:23:28 BDT" finished-at="2022-10-05T19:23:34 BDT">
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test_Script.Test_ChaldalHomePage@74e52303]" name="setup" is-config="true" duration-ms="1578" started-at="2022-11-03T19:07:45 BDT" finished-at="2022-11-03T19:07:47 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_exchange_language()[pri:3, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="test_exchange_language" duration-ms="8592" started-at="2022-10-05T19:23:34 BDT" finished-at="2022-10-05T19:23:43 BDT">
+        <test-method status="PASS" signature="test_exchange_language()[pri:3, instance:Test_Script.Test_ChaldalHomePage@74e52303]" name="test_exchange_language" duration-ms="14679" started-at="2022-11-03T19:07:47 BDT" finished-at="2022-11-03T19:08:01 BDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_exchange_language -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Test_Script.Test_ChaldalHomePage@158da8e]" name="teardown" is-config="true" duration-ms="16273" started-at="2022-10-05T19:23:43 BDT" finished-at="2022-10-05T19:23:59 BDT">
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:Test_Script.Test_ChaldalHomePage@74e52303]" name="screenShot" is-config="true" duration-ms="16539" started-at="2022-11-03T19:08:01 BDT" finished-at="2022-11-03T19:08:18 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_exchange_language status=SUCCESS method=Test_ChaldalHomePage.test_exchange_language()[pri:3, instance:Test_Script.Test_ChaldalHomePage@74e52303] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
+        </test-method> <!-- screenShot -->
       </class> <!-- Test_Script.Test_ChaldalHomePage -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->

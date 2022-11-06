@@ -1,5 +1,8 @@
+Page_Objects\HomePage_UK.class
 Utils\utils_task.class
 Test_Script\Test_ChaldalHomePage.class
-Programming\Test.class
-Test_Script\BaseEnv.class
+Test_Script\Test_Product_UK.class
 Page_Objects\ChaldalHomePage.class
+Test_Script\Test_HomePage_UK.class
+Test_Script\BaseEnv.class
+Page_Objects\ProductPage_UK.class

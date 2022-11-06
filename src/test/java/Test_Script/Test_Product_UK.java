@@ -7,29 +7,39 @@ import org.testng.annotations.Test;
 
 public class Test_Product_UK extends BaseEnv{
 
+
     @Test(priority=1)
     public void test_product() throws InterruptedException
     {
         driver.get("http://teststore.automationtesting.co.uk/");
         Thread.sleep(3000);
         ProductPage_UK obj=new ProductPage_UK(driver);
+        //click product
         obj.product_one().click();
         Thread.sleep(3000);
+        //select size
         Select option= new Select(obj.product_size());
         option.selectByVisibleText("XL");
         Thread.sleep(3000);
+        //increase the quantity
         obj.quantity_increase().click();
         Thread.sleep(3000);
+        //click on add to cart button
         obj.add_cart_button().click();
         Thread.sleep(5000);
+        //click on checkout button
         obj.proceed_to_checkout_button().click();
         Thread.sleep(5000);
+        //click on promo code
         obj.promo_code().click();
         Thread.sleep(5000);
+        //sends text in promo box
         obj.promo_text_box().sendKeys("20OFF");
         Thread.sleep(5000);
+        //click on add button
         obj.promo_add_button().click();
         Thread.sleep(5000);
+        //click on check out button
         obj.proceed_to_checkout_button().click();
         Thread.sleep(5000);
         obj.Mr_checkbox().click();
@@ -69,10 +79,6 @@ public class Test_Product_UK extends BaseEnv{
         //Assert.assertEquals("",text);
         Assert.assertEquals("Test is Passed","\uE876YOUR ORDER IS CONFIRMED",text);
         Thread.sleep(5000);
-
-
-
     }
-
 
 }

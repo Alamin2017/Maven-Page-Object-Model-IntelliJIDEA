@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeMethod;
 import java.time.Duration;
 
 public class BaseEnv {
-    WebDriver driver=null;
+    public WebDriver driver;
     @BeforeMethod
     public void setup()
     {
