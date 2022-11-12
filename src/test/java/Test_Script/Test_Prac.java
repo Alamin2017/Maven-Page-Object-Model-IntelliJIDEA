@@ -12,6 +12,9 @@ public class Test_Prac extends BaseEnv{
         //obj.click_on_popular_Element();
         obj.click_popular_item();
         obj.get_mini_title_text();
+        obj.click_bangla_lang();
+        obj.is_displayed_logo();
+        obj.multi_element_count_products();
     }
 
 }

@@ -29,6 +29,22 @@ public class TestPage {
         System.out.println("Title:"+text);
 
     }
+    public void click_bangla_lang() throws InterruptedException {
+        ElementActions elementActions=new ElementActions(driver);
+        elementActions.click_Element(bangla_lang);
+    }
+    public void is_displayed_logo()
+    {
+        ElementActions elementActions=new ElementActions(driver);
+        boolean image_exist=elementActions.getElement(image_logo).isDisplayed();
+        System.out.println("Image:"+image_exist);
+    }
+    public void multi_element_count_products()
+    {
+        ElementActions elementActions=new ElementActions(driver);
+        int count=elementActions.getElements(products_list).size();
+        System.out.println("Multiple Elements for Products:"+count);
+    }
 
 
 }
